@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.caption-style{
+    style="height: 100vh; 
+    position: absolute; 
+    top: 30px;
+}
+.title{
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+    
+    font-size: 35px;
+}
+.description{
+    position: absolute;
+    
+    font-size: 20px;
+   bottom: 300px;
+}
+.price{
+    position: absolute;
+    
+    bottom: 150px;
+}
+.buttonprice{
+    position: absolute;
+    
+    bottom: 100px;
+}
+@media all and (max-width:576px){
+    .title{
+        position: absolute;
+        top: 80px;
+        font-weight: bold;
+        
+        font-size: 35px;
+    }
+}
